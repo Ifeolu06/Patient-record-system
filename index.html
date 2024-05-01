@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Patient record</title>
+                    <link rel="stylesheet" href="style.css">
+ </head>  
+ <body>                
+<header>
+     <div class="Hom1"><a href="index.html">  <img class="img1" src="images/fav.png" ></a><span class="Ho"> Oko Medical Clinic</span><span class="per"><a href="id.html"><img src="images/person_FILL.png" alt=""></a></span></div>
+     <div class="Hom2">
+        <div class="cla">
+            <span><button id="cal" class="cal" >Medical Profile</button></span><span><button id="rep" class="rep">Doctor Report</button></span>
+            <span><button id="ab" class="ab">Lab Report</button></span><span><button id="al" class="al">All Patient</button></span>
+             
+          </div>
+    </div>
+     <div class="Hom3">Quick Statistics</div>  
+     <div class="Hom4"><span class="img2"><img src="images/patient_list.png" alt=""></span><span class="pa">Patients</span><br><span class="pa2">10</span><br><span class="pa3">20% increased</span></div>
+    <div class="Hom5"><span class="img3"><img src="images/bar_chart.png" alt=""></span><span class="appointa">Appointments</span><br><span class="appointb"> 6</span><br><span class="appointc">-15% Decreased</span></div>
+    <span><img class="tor" src="images/Doctor.jpg" alt=""></span><span class="health">Total Health Care Solution</span><br><span class="trust">Your Most Trusted Health Partner</span>
+    <br>
+    <span class="quality">We Make Quality</span><span class="heal">Healthcare</span><br><span class="day">Same-Day Emergency Appointments!</span>
+    <br><button class="make" id="make">Make Appointment</button>
+    
+</header>
+                    
+</body>
+<script>
+    document.getElementById("cal").addEventListener("click",function(){
+        window.location.href="http://127.0.0.1:5500/med_profile.html";
+    });
+
+    document.getElementById("rep").addEventListener("click",function(){
+        window.location.href="http://127.0.0.1:5500/doc.html";
+    });
+
+    document.getElementById("ab").addEventListener("click",function(){
+        window.location.href="http://127.0.0.1:5500/lab.html";
+    });
+
+    document.getElementById("al").addEventListener("click",function(){
+        window.location.href="http://127.0.0.1:5500/all_patient.html";
+    });
+
+
+
+    document.getElementById("make").addEventListener("click",function(){
+        window.location.href="http://127.0.0.1:5500/add_patient.html";
+    });
+    
+
+</script>
+</html>

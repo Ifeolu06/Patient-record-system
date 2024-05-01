@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Document</title>
+</head>
+<style>
+
+ body{
+  background-color: rgb(210, 219, 210);
+
+ }
+#dialogueBox {
+  width: 300px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#closeButton {
+  display: block;
+  margin-top: 10px;
+  background-color: rgb(47, 114, 47);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.user{
+                    position: relative;
+                    font-size: 0.8em;
+                    left: 30px;
+
+}
+.user2{
+                    position: relative;
+                    left: 37px;
+}
+.pass{
+                    position: relative;
+                    font-size: 1em;
+                    font-weight: bolder;
+}
+.pass2{
+                    position: relative;
+                    left: 10px;
+}
+
+</style>
+<body>
+                                      
+                                      
+                                        <div id="dialogueBox">
+                                          <h2><label class="user" for="">User</label><input class="user2" type="text"></h2>
+                                          <p><label class="pass" for="">password</label><input class="pass2" type="password" id="passwordInput"></p>
+                                          <button id="closeButton" onclick="authenticate()">Login</button>
+                                          
+                                        </div>
+                                     
+</body>
+<script>
+ function authenticate(){
+  var enteredPassword = document.getElementById("passwordInput").value;
+  var correctPassword = "password123"; //replace with ur actual correct password
+
+  if(enteredPassword === correctPassword){
+    alert("Authentication Successful!");
+    //redirect to another page or perform further actions here
+        window.location.href="http://127.0.0.1:5500/index.html";
+    
+  } else {
+    alert("Authentication failed. Incorrect password.");
+  }
+ }
+</script>
+</html>

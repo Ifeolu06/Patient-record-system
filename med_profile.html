@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Patient record</title>
+                    <link rel="stylesheet" href="style.css">
+ </head> 
+ <body>               
+<header>
+     <div class="Hom1"> <a href="index.html"><img class="img1" src="images/fav.png" ></a><span class="Ho"> Oko Medical Clinic</span></div>
+     <div class="Hom2">
+          <div class="cla">
+               <span><button id="cal" class="cal" >Medical Profile</button></span><span><button id="rep" class="rep">Doctor Report</button></span>
+               <span><button id="ab" class="ab">Lab Report</button></span><span><button id="al" class="al">All Patient</button></span>
+                
+             </div>
+    </div>
+     <div class="Hom3">Patient</div>  
+</header>
+    <div class="med">
+    <span class="prof">Basic Medical Profile</span><span class="prof2">Visual Acuity</span><span class="prof3">Immunisations</span>
+    <br>
+    <span><label class="at" for="">Patient No</label><input class="at2" type="number"></span>
+    <br>
+    <span><label class="ate" for="">Date</label><input class="ate2" type="date"></span><br>
+    <span><label class="right" for="">R</label><input class="right2" type="text"></span><br>
+    <span><label class="left" for="">L</label><input class="left2" type="text"></span>
+    <br>
+    <span><label class="wei" for="">Weight</label><input class="wei2" type="text"></span><br><span><label class="hei" for="">Height</label><input class="hei2" type="text"></span>
+    <br>
+    <span><label class="temp" for="">T</label><input class="temp2" type="text"></span>
+    <br>
+    <span><label class="pressure" for="">P</label><input class="pressure2" type="text"></span>
+    <span><label class="resp" for="">R</label><input class="resp2" type="text"></span>
+    <br>
+    <span><label class="blopre" for="">B.P</label><input class="blopre2" type="text"></span>
+    <span><label class="bc" for="">B.C.G</label><input class="bc2" type="text"></span>
+    <span><label class="pol" for="">DP T & Polio</label><input class="pol2" type="text"></span>
+    <div id="show_sec">
+     <p id="tet">Tetanus Toxoid</p>
+     <select name="Patient_no_per_page" id="appear">
+     <option value="">1st dose</option>
+     <option value="">2nd dose</option>
+     <option value="">3rd dose</option>
+     <option value="">others</option>
+     </select>
+     </div>
+     <button class="bit">submit</button>
+    </div>
+  </body>
+  <script>
+     document.getElementById("cal").addEventListener("click",function(){
+           window.location.href="http://127.0.0.1:5500/med_profile.html";
+       });
+   
+       document.getElementById("rep").addEventListener("click",function(){
+           window.location.href="http://127.0.0.1:5500/doc.html";
+       });
+   
+       document.getElementById("ab").addEventListener("click",function(){
+           window.location.href="http://127.0.0.1:5500/lab.html";
+       });
+   
+       document.getElementById("al").addEventListener("click",function(){
+           window.location.href="http://127.0.0.1:5500/all_patient.html";
+       });
+   
+   
+   
+   </script>
+   
+  </html>

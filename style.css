@@ -1,0 +1,1093 @@
+/*Header home css*/
+body{
+   background: rgb(210, 219, 210);
+   margin-left: 130px;
+   margin-right: 140px;
+ 
+}
+.Hom1{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    font-size: 2em;
+}
+.img1{
+      width: 80px;
+}
+.Ho{
+  position: relative;
+  top: -30px;
+}
+.ser{
+      position: relative;
+      right: -650px;  
+      top: -20px; 
+                
+}  
+.not{
+     position: relative;
+     right: -650px;
+     top: -20px;
+
+}
+.per{
+  position: relative;
+  right: -650px;
+  top: -20px;
+}
+
+.Hom2{
+background-color: rgb(47, 114, 47);
+width: 100%;
+height: 40px;
+padding: 10px;
+}
+.pat{
+     background-color:rgb(47, 114, 47); 
+     color: white;
+     position: relative;
+     margin-left: 20px;
+     border-radius: 20px;
+     border-color: white;
+     width: 100px;
+     height: 30px;
+     top: 5px;
+}
+
+.Hom3{
+    background-color: rgb(81, 78, 78) ;
+    width: 100%;
+    color: white;
+    height: 35px;
+    text-align: left;
+    padding: 10px;
+    font-size: 1.8em;
+}
+.Hom4{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+ }
+ .img2{
+    position: relative;
+    top: 20px;
+    left: -490px;
+}
+.pa{
+  position: relative;
+  top: -20px;
+  left: -465px;
+  color: rgb(238, 112, 112);
+  font-size: large;
+}
+.pa2{
+    position: relative;
+    top: -20px;
+    left: -450px;
+    color:rgb(238, 112, 112);
+    font-size: 2em;
+}
+.pa3{
+    position: relative;
+    top: -25px;
+    left: -420px;
+    font-size: large;
+}
+.Hom5{
+  background-color:white; 
+  width:100%;
+  height: 80px;   
+  padding: 10px;  
+  margin-top: 20px;
+}
+.img3{
+position: relative;
+top: 20px;
+left: 50px;
+}
+.appointa{
+  position: relative;
+  top: -25px;
+  right: -70px;
+  color: rgb(47, 114, 47);
+  font-size: large;
+}
+.appointb{
+ position: relative;
+ left: 110px;
+ top: -25px;
+ color: rgb(47, 114, 47);
+ font-size: 2em;
+}
+.appointc{
+  position: relative;
+  left: 110px;
+  top: -30px;
+  font-size: large;
+}
+.tor{
+  position: relative;
+  margin-top: 20px;
+  width: 400px;
+  height: 400px;
+  left: 800px;
+}
+.health{
+   position: relative;
+   top: -280px;
+   color: rgb(142, 138, 138);
+   font-size: 1rem;
+   left: 150px;
+}
+.trust{
+   position: relative;
+   top:-280px;
+   font-size: 2rem;
+   color: black;
+   left: 287px;
+}
+.quality{
+    position: relative;
+    top: -280px;
+    font-size: 1.5rem;
+    color:black;
+    left: 440px;
+}
+.heal{
+  position: relative;
+  top: -280px;
+  font-size: 1.5rem;
+  color:  rgb(47, 114, 47);
+  left: 445px;
+}
+.day{
+   position: relative;
+   top: -280px;
+   color: rgb(142, 138, 138);
+   font-size: 1rem;
+   left: 475px;
+}
+.make{
+   position: relative;
+   top: -250px;
+   width: 130px;
+   height: 50px;
+   border-radius: 10px;
+   background-color: rgb(47, 114, 47);
+   color: white;
+   border-color: whitesmoke;
+   left: 580px;
+   
+}
+ 
+/*all_patient*/
+#show{
+      position: relative;
+      top: -46px;
+      left: 50px;
+      padding: 6px 2px 6px 2px;
+}
+#tient{
+     padding: 10px;
+     border-radius: 10px;
+     background-color: rgb(47, 114, 47);
+     color: white;
+     font-size: 1em;
+}
+.tail{
+  position: relative;
+  font-size: 1.7em;
+  color: white;
+}
+.tab1{
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  height: 1200px;
+}
+#sh{
+font-size: 1.2em;
+}
+#entr{
+  position: relative;
+  top: -90px;
+  left: 100px;
+  font-size: 1.2em;
+}
+table, th, td{
+        border: 2px solid black ;
+        border-collapse: collapse;
+        margin-left: 180px;
+        margin-right: 100px;
+}
+
+.sear{
+     position: relative;
+     top: -140px;
+     left: 930px;
+     font-size: 1.2em;
+}
+.sea{
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 10px;
+    border-color: skyblue;
+}
+
+th, td{
+     padding: 20px;
+}
+.lis{
+   color: rgb(47, 114, 47);
+   font-size: 1.5em;
+}
+.lete{
+  position: relative;
+  top: 50px;
+  left: 175px;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(47, 114, 47);
+  color: white;
+}
+/*add patient*/
+.add{
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  height: 800px;
+}
+.add1{
+      color: rgb(47, 114, 47);
+      font-size: 2em;
+}
+.det{
+  position: relative;
+  top: 25px;
+  font-size: 1.2em;
+  left: 30px;
+}
+.det2{
+  position: relative;
+  top: 55px;
+  width: 490px;
+  left: -12px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: aliceblue;
+}
+
+.emp{
+  position: relative;
+  top: 30px;
+  left: 90px;
+  font-size: 1.2em;
+}
+.emp2{
+  position: relative;
+  top: 60px;
+  left: 10px;
+  width: 487px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: aliceblue;
+}
+.fil{
+  position: relative;
+  left: 30px;
+  font-size:  1.2em;
+  top: 60px;
+}
+.fil2{
+  position: relative;
+  left: -35px;
+  width: 50px;
+  top: 90px;
+  width: 485px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: aliceblue;
+}
+.hos{
+  position: relative;
+  top: 60px;
+  left: 70px;
+  font-size: 1.2em;
+}
+.hos2{
+  position: relative;
+  top: 90px;
+  left: -30px;
+  width: 485px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: aliceblue;
+
+}
+.sur{
+  position: relative;
+  top: 95px;
+  left: 30px;
+  font-size: 1.2em;
+}
+.sur2{
+  position: relative;
+  top: 125px;
+  left: -40px;
+  width: 485px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: aliceblue;
+}
+.first{
+  position: relative;
+  top: 95px;
+  left: 65px;
+  font-size: 1.2em;
+}
+.first2{
+  position: relative;
+  top: 125px;
+  left: -30px;
+  height: 30px;
+  width: 485px;
+  border-radius: 10px;
+  border-color: aliceblue;
+}
+.birth{
+   position: relative;
+   top: 130px;
+   left: 30px;
+   font-size: 1.2em;
+}
+.birth2{
+   position: relative;
+   top: 157px;
+   height: 30px;
+   width: 490px;
+   left: -75px;
+   border-radius: 10px;
+   border-color: aliceblue;
+}
+.gender{
+   position: relative;
+   top: 126px;
+   left: 28px;
+   font-size: 1.2em;
+}
+.gender2{
+  position: relative;
+  top: 155px;
+  height: 30px;
+  width: 490px;
+  left: -5px;
+  border-radius: 10px;
+  border-color: aliceblue;
+}
+.marital{
+  position: relative;
+  top: 165px;
+  left: 28px;
+  font-size: 1.2em; 
+}
+.marital2{
+  position: relative;
+  top: 195px;
+  height: 30px;
+  width: 487px;
+  left: -82px;
+  border-radius: 10px;
+  border-color: aliceblue;
+}
+.child{
+  position: relative;
+  top: 163px;
+  left: 20px;
+  font-size: 1.2em;  
+}
+.child2{
+  position: relative;
+  top: 155px;
+  height: 30px;
+  width: 487px;
+  left: 620px;
+  border-radius: 10px;
+  border-color: aliceblue;
+}
+.rel{
+  position: relative;
+  top: 170px;
+  left: 25px;
+  font-size: 1.2em;  
+}
+.rel2{
+  position: relative;
+  top: 200px;
+  height: 30px;
+  width: 487px;
+  left: -40px;
+  border-radius: 10px;
+  border-color: aliceblue;
+}
+.occ{
+  position: relative;
+  top: 170px;
+  left: 60px;
+  font-size: 1.2em;  
+}
+.occ2{
+  position: relative;
+  top: 200px;
+  height: 30px;
+  width: 487px;
+  left: -30px;
+  border-radius: 10px;
+  border-color: aliceblue;
+}
+.off{
+  position: relative;
+  top: 210px;
+  left: 23px;
+  font-size: 1.2em;  
+}
+.off2{
+  position: relative;
+  top: 240px;
+  height: 30px;
+  width: 487px;
+  left: -90px;
+  border-radius: 10px;
+  border-color: aliceblue;
+}
+.ress{
+  position: relative;
+  top: 215px;
+  left: 10px;
+  font-size: 1.2em;  
+}
+.ress2{
+  position: relative;
+  top: 210px;
+  height: 30px;
+  width: 487px;
+  left: 620px;
+  border-radius: 10px;
+  border-color: aliceblue;
+}
+.town{
+  position: relative;
+  top: 210px;
+  left: 25px;
+  font-size: 1.2em;  
+}
+.town2{
+  position: relative;
+  top: 240px;
+  height: 30px;
+  width: 487px;
+  left: -70px;
+  border-radius: 10px;
+  border-color: aliceblue;
+}
+.kin{
+  position: relative;
+  top: 215px;
+  left: 30px;
+  font-size: 1.2em;  
+}
+.kin2{
+  position: relative;
+  top: 210px;
+  height: 30px;
+  width: 487px;
+  left: 620px;
+  border-radius: 10px;
+  border-color: aliceblue;
+}
+.num{
+  position: relative;
+  top: 210px;
+  left: 25px;
+  font-size: 1.2em; 
+}
+.num2{
+  position: relative;
+  top:240px;
+  height: 30px;
+  width: 487px;
+  left: -25px;
+  border-radius: 10px;
+  border-color: aliceblue;
+}
+.but{
+  background-color: rgb(47, 114, 47);
+   position: relative;
+   top: 270px;
+   left: 30px;
+   font-size: 1.2em;
+   color:white;
+   border-radius: 20px;
+   height: 30px;
+   width: 100px;
+  }
+  .cal{
+    position: relative;
+    margin-left: 20px;
+    top: 5px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:rgb(47, 114, 47);
+    color: white;
+    border-color: white;
+    font-size: 1.2em;
+  }
+  .rep{
+    position: relative;
+    margin-left: 20px;
+    top: 5px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:rgb(47, 114, 47);
+    color: white;
+    border-color: white;
+    font-size: 1.2em;
+  }
+  .ab{
+    position: relative;
+    margin-left: 20px;
+    top: 5px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:rgb(47, 114, 47);
+    color: white;
+    border-color: white;
+    font-size: 1.2em;
+  }
+  .al{
+    position: relative;
+    margin-left: 20px;
+    top: 5px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:rgb(47, 114, 47);
+    color: white;
+    border-color: white;
+    font-size: 1.2em;
+  }
+
+  /*Med profile*/
+  .med{
+     background-color: white;
+     margin-top: 20px;
+     padding: 10px;
+     width: 100%;
+     height: 850px;
+  }
+  .prof{
+    position: relative;
+    top: 20px;
+    left: 100px;
+    font-size: 2em;
+    color: rgb(47, 114, 47);
+  }
+  .prof2{
+    position: relative;
+    top: 20px;
+    left: 250px;
+    font-size: 2em;
+    color: rgb(47, 114, 47);
+  }
+  .prof3{
+    position: relative;
+    top: 20px;
+    left: 400px;
+    font-size: 2em;
+    color: rgb(47, 114, 47);
+  }
+  .at{
+   position: relative;
+   top: 40px; 
+   left: 80px;
+  }
+  .at2{
+    position: relative;
+    top: 50px;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    left: 85px;
+    border-color: rgb(224, 219, 219);
+  }
+  .ate{
+    position: relative;
+    top: 70px;
+    left: 115px;
+    font-size: 1em;
+  }
+  .ate2{
+    position: relative;
+    top: 80px;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    left: 120px;
+    border-color: rgb(224, 219, 219);
+  }
+  .wei{
+    position: relative;
+    top: 85px;
+    left: 95px;
+    font-size: 1em;
+  }
+  .wei2{
+     position: relative;
+     top: 85px;
+     border-radius: 5px;
+     width: 150px;
+     height: 30px;
+     left: 100px;
+     border-color: rgb(224, 219, 219);
+  }
+  .hei{
+    position: relative;
+    top: 125px;
+    left: 95px;
+    font-size: 1em;
+  }
+  .hei2{
+    position: relative;
+    top: 130px;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    left: 100px;
+    border-color: rgb(224, 219, 219);
+  }
+  .temp{
+    position: relative;
+    top: 175px;
+    left: 125px;
+    font-size: 1em;
+  }
+  .temp2{
+    position: relative;
+    top: 175px;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    left: 130px;
+    border-color: rgb(224, 219, 219);
+  }
+  .pressure{
+    position: relative;
+    top: 215px;
+    left: 125px;
+    font-size: 1em;
+  }
+  .pressure2{
+    position: relative;
+    top: 218px;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    left: 130px;
+    border-color: rgb(224, 219, 219);
+  }
+  .resp{
+    position: relative;
+    top: 285px;
+    left: -50px;
+    font-size: 1em;
+  }
+  .resp2{
+    position: relative;
+    top: 290px;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    left: -45px;
+    border-color: rgb(224, 219, 219);
+  }
+  .blopre{
+    position: relative;
+    top: 320px;
+    left: 105px;
+    font-size: 1em; 
+  }
+  .blopre2{
+    position: relative;
+    top: 325px;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    left: 110px;
+    border-color: rgb(224, 219, 219);
+  }
+  .right{
+    position: relative;
+    top: -5px;
+    left: 530px;
+    font-size: 1.2em;
+  }
+  .right2{
+       position: relative;
+       top: -5px;
+       left: 540px;
+       border-radius: 5px;
+       width: 150px;
+       height: 30px;
+       border-color: rgb(224, 219, 219);
+}
+.left{
+  position: relative;
+    top: 20px;
+    left: 535px;
+    font-size: 1.2em;
+}
+.left2{
+  position: relative;
+  top: 20px;
+  left: 543px;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  border-color: rgb(224, 219, 219);
+}
+.bc{
+  position: relative;
+    top: -205px;
+    left: 675px;
+    font-size: 1.2em;
+}
+.bc2{
+  position: relative;
+  top: -205px;
+  left: 680px;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  border-color: rgb(224, 219, 219);
+}
+.pol{
+  position: relative;
+  top: -130px;
+  left: 410px;
+  font-size: 1.2em;
+}
+.pol2{
+  position: relative;
+  top: -130px;
+  left: 415px;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  border-color: rgb(224, 219, 219);
+}
+#appear{
+  position: relative;
+  top: -130px;
+  left: 920px;
+  padding: 6px 2px 6px 2px;
+}
+#tet{
+  font-size: 1.2em;
+  position: relative;
+  left: 795px;
+  top: -85px;
+  }
+  .bit{
+    position: relative;
+    top: 330px;
+    left: 80px;
+    border-radius: 20px;
+    width: 90px;
+    height: 50px;
+    background-color: rgb(47, 114, 47);
+    color: white;
+    font-size: 1.2em;
+  }
+/*doc css*/
+.Doc{
+     background-color: white;
+     margin-top: 20px;
+     padding: 10px;
+     width: 100%;
+     height: 1800px;
+}
+.ber{
+  position: relative;
+  top: 15px;
+  left: 85px;
+  font-size: 1.2em;
+}
+.ber2{
+  position: relative;
+  top: 15px;
+  left: 90px;
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: rgb(163, 159, 159);
+}
+.te{
+  position: relative;
+  top: 80px;
+  left: -85px;
+  font-size: 1.2em;
+}
+.te2{
+  position: relative;
+  top: 80px;
+  left: -80px;
+  width: 120px;
+  height:30px;
+  border-radius: 10px;
+  border-color: rgb(163, 159, 159);
+}
+.pre{
+  position: relative;
+  top: 20px;
+  left: 30px;
+  font-size: 1.2em;
+}
+.pre2{
+position: relative;
+top: 125px;
+left: 35px;
+width: 650px;
+height: 250px;
+border-radius: 10px;
+border-color: rgb(163, 159, 159);
+}
+.hc{
+  position: relative;
+  top: 145px;
+  left: 145px;
+  font-size: 1.2em;
+}
+.hc2{
+  position: relative;
+  top: 200px;
+  left: 152px;
+  width: 650px;
+  height: 150px;
+  border-radius: 10px;
+  border-color: rgb(163, 159, 159);
+}
+.allergy{
+  position: relative;
+  top: 220px;
+  left: 45px;
+  font-size: 1.2em;
+}
+.allergy2{
+  position: relative;
+  top: 280px;
+  left: 53px;
+  width: 650px;
+  height: 150px;
+  border-radius: 10px;
+  border-color: rgb(163, 159, 159);
+}
+.fs{
+  position: relative;
+  top: 300px;
+  left: 150px;
+  font-size: 1.2em;
+}
+.fs2{
+  position: relative;
+  top: 355px;
+  left: 155px;
+  width: 650px;
+  height: 150px;
+  border-radius: 10px;
+  border-color: rgb(163, 159, 159);
+}
+.psy{
+  position: relative;
+  top: 525px;
+  left: -685px;
+  font-size: 1.2em;
+}
+.psy2{
+  position: relative;
+  top:430px;
+  left: 200px;
+  width: 650px;
+  height: 150px;
+  border-radius: 10px;
+  border-color: rgb(163, 159, 159);
+}
+.des{
+  position: relative;
+  top: 600px;
+  left: -570px;
+  font-size: 1.2em;
+}
+.des2{
+  position: relative;
+  top: 500px;
+  left: 200px;
+  width: 650px;
+  height: 150px;
+  border-radius: 10px;
+  border-color: rgb(163, 159, 159);
+}
+.mit{
+  position: relative;
+  top: 700px;
+  left: -580px;
+  font-size: 1.2em;
+  width: 100px;
+  height: 60px;
+  border-radius: 10px;
+  border-color: rgb(163, 159, 159);;
+  background-color:rgb(47, 114, 47);
+  color: white;
+}
+/*Lab css*/
+.report{
+   background-color: white;
+   margin-top: 20px;
+   padding: 10px;
+   width: 100%;
+   height: 700px;
+}
+.report1{
+     position: relative;
+     top: 10px;
+     font-size: 1.5em;
+     color: rgb(47, 114, 47);
+     left: 10px;
+}
+.sort{
+   position: relative;
+   top: 25px;
+   left: 40px;
+   font-size: 1.2em;
+  }
+.sert{
+  position: relative;
+  top: 25px;
+  width: 100px;
+  height: 20px;
+  border-radius: 10px;
+  left: 45px;
+}
+.test{
+   position: relative;
+   top: 50px;
+   left: 80px;
+   font-size: 1.2em;
+}
+.test2{
+   position: relative;
+   top: 50px;
+   width: 100px;
+   height: 20px;
+   border-radius: 10px;
+   left: 85px;
+}
+.rine{
+  position: relative;
+  top: 80px;
+  left: 60px;
+  font-size: 1.2em;
+}
+.rine2{
+  position: relative;
+  top: 80px;
+  left: 65px;
+  border-radius: 10px;
+  height: 20px;
+  width: 100px;
+}
+.gar{
+  position: relative;
+  top: 80px;
+  left: 150px;
+  font-size: 1.2em;
+}
+.gar2{
+  position: relative;
+  top: 80px;
+  left: 155px;
+  border-radius: 10px;
+  height: 20px;
+  width: 100px;
+}
+.bum{
+  position: relative;
+  top: 80px;
+  left: 240px;
+  font: 1.2em;
+}
+.bum2{
+  position: relative;
+  top: 80px;
+  left: 245px;
+  border-radius: 10px;
+  height: 20px;
+  width: 100px;
+}
+.kett{
+  position: relative;
+  top: 130px;
+  left: 40px;
+  font: 1.2em;
+}
+.kett2{
+  position: relative;
+  top: 130px;
+  left: 45px;
+  border-radius: 10px;
+  height: 20px;
+  width: 100px;
+}
+.ph{
+  position: relative;
+  top: 130px;
+  left: 175px;
+  font-size: 1.2em;
+}
+.ph2{
+  position: relative;
+  top: 130px;
+  left: 180px;
+  border-radius: 10px;
+  height: 20px;
+  width: 100px;
+}
+.oth{
+  position: relative;
+  top: 130px;
+  left: 275px;
+  font: 1.2em;
+}
+.oth2{
+  position: relative;
+  top: 130px;
+  left: 280px;
+  border-radius: 20px;
+  height: 20px;
+  width: 100px;
+}
+.tim{
+  position: relative;
+  top: 230px;
+  left: -400px;
+  border-radius: 20px;
+  width: 80px;
+  height: 40px;
+  background-color: rgb(47, 114, 47);
+  color: white;
+}

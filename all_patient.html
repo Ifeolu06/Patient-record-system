@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Patient record</title>
+                    <link rel="stylesheet" href="style.css">
+ </head> 
+ <body>               
+<header>
+     <div class="Hom1"> <a href="index.html"><img class="img1" src="images/fav.png" ></a><span class="Ho"> Oko Medical Clinic</span></div>
+     <div class="Hom2">
+      <div class="cla">
+        <span><button id="cal" class="cal" >Medical Profile</button></span><span><button id="rep" class="rep">Doctor Report</button></span>
+        <span><button id="ab" class="ab">Lab Report</button></span><span><button id="al" class="al">All Patient</button></span>
+         
+      </div>
+     </div>
+     <div class="Hom3">Patients</div>  
+</header>
+ <div class="tab1">
+    <h2 class="lis">Patients List</h2>
+    <div id="show_sec">
+                    <p id="sh">Show</p>
+                    <select name="Patient_no_per_page" id="show">
+                    <option value="">10</option>
+                    <option value="">25</option>
+                    <option value="">50</option>
+                    <option value="">100</option>
+                    </select>
+                    <p id="entr">Entries</p><span class="sear">Search:<input class="sea" type="text"></span>
+    </div>
+         <div class="table">
+                    <table id="all_patients">
+                       <tr>
+                        <td></td>
+                       <th>Patient File No</th>
+                       <th>Patient Name</th>
+                       <th>Age</th>
+                       <th>Phone</th>
+                       <th>Last Visit</th>
+                       <th>Status</th>
+                       </tr>
+                       <tr>
+                         <td><input type="checkbox" name="" id=""></td>
+                         <td>1</td>
+                         <td>Omotayo ifeoluwa</td>
+                         <td>18</td>
+                         <td>095658743</td>
+                         <td>12-06-2023</td>
+                         <td>completed</td>
+                       </tr>
+                       <tr>
+                         <td><input type="checkbox" name="" id=""></td>
+                         <td>2</td>
+                         <td>Adedoyin</td>
+                         <td>25</td>
+                         <td>085755855</td>
+                         <td>19-08-20023</td>
+                         <td>completed</td>               
+                       </tr>
+                       <tr>
+                         <td><input type="checkbox" name="" id=""></td>
+                         <td>3</td>
+                         <td>Aderogba</td>
+                         <td>35</td>
+                         <td>0783333334</td>
+                         <td>02-01-2023</td>
+                         <td>cancelled</td>
+                       </tr>
+                       <tr>
+                          <td><input type="checkbox" name="" id=""></td>
+                          <td>4</td>
+                          <td>Kolapo</td>
+                          <td>23</td>
+                          <td>094444456</td>
+                          <td>03-04-2023</td>
+                          <td>completed</td>
+                       </tr>
+                       <tr>
+                         <td><input type="checkbox" name="" id=""></td>
+                         <td>5</td>
+                         <td>Adeyemi</td>
+                         <td>40</td>
+                         <td>081847474</td>
+                         <td>08-09-2023</td>
+                         <td>pending</td>
+                       </tr>   
+                       <tr>
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td>6</td>
+                        <td>Olabisi</td>
+                        <td>30</td>
+                        <td>09074948474</td>
+                        <td>07-07-2023</td>
+                        <td>pending</td>
+                       </tr> 
+                       <tr>
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td>7</td>
+                        <td>Smith</td>
+                        <td>70</td>
+                        <td>044744444</td>
+                        <td>06-04-2023</td>
+                        <td>completed</td>
+                       </tr>  
+                       <tr>
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td>8</td>
+                        <td>Loveth</td>
+                        <td>25</td>
+                        <td>0814647474</td>
+                        <td>09-08-2023</td>
+                        <td>pending</td>
+                       </tr> 
+                       <tr>
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td>9</td>
+                        <td>Oloriade</td>
+                        <td>28</td>
+                        <td>09174744484</td>
+                        <td>08-04-2023</td>
+                        <td>completed</td>
+                       </tr>   
+                       <tr>
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td>10</td>
+                        <td>Ebuka</td>
+                        <td>25</td>
+                        <td>08125603894</td>
+                        <td>05-05-2023</td>
+                        <td>completed</td>
+                       </tr>       
+                    </table>
+        </div>
+        <div ><button class="lete">Delete</button></div>
+
+ </div>
+ </body>
+ <script>
+  document.getElementById("cal").addEventListener("click",function(){
+        window.location.href="http://127.0.0.1:5500/med_profile.html";
+    });
+
+    document.getElementById("rep").addEventListener("click",function(){
+        window.location.href="http://127.0.0.1:5500/doc.html";
+    });
+
+    document.getElementById("ab").addEventListener("click",function(){
+        window.location.href="http://127.0.0.1:5500/lab.html";
+    });
+
+    document.getElementById("al").addEventListener("click",function(){
+        window.location.href="http://127.0.0.1:5500/all_patient.html";
+    });
+
+
+
+</script>
+
+</html>
